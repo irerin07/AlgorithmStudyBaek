@@ -27,7 +27,7 @@ public class baekjoon2798 {
             if (a <= M)
                 list.add(a);
         }
-//        Collections.sort(list, Collections.reverseOrder());
+        Collections.sort(list, Collections.reverseOrder());
         System.out.println(solution(N, M, list));
         try {
             br.close();
