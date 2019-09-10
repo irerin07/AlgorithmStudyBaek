@@ -51,7 +51,6 @@ public class baekjoon2798 {
                         answer = temp;
                     }
                 }
-
             }
         }
         return answer;
