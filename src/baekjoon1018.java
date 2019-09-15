@@ -38,7 +38,7 @@ public class baekjoon1018 {
             if(map[x+1][y+1]!=left) count++;
             return count;
         }
-        
+
         count += dfs(x, y, half, left, right);
         count += dfs(x, y+half, half, left, right);
         count += dfs(x+half, y, half, left, right);
