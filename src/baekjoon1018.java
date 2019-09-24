@@ -43,6 +43,7 @@ public class baekjoon1018 {
         count += dfs(x, y+half, half, left, right);
         count += dfs(x+half, y, half, left, right);
         count += dfs(x+half, y+half, half, left, right);
+
         return count;
     }
 }
