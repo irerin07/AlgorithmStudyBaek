@@ -15,7 +15,7 @@ public class programmers12935 {
 //        if (arr.length <= 1) return new int[]{ -1 };
 //        int min = Arrays.stream(arr).min().getAsInt();
 //        return Arrays.stream(arr).filter(i -> i != min).toArray();
-        int[] answer = {};
+        int[] answer = new int[arr.length - 1];;
         int min = arr[0];
         if (arr.length == 1) {
             return new int[]{-1};
@@ -23,8 +23,6 @@ public class programmers12935 {
         for (int i = 0; i < arr.length; i++) {
             min = Math.min(arr[i], min);
         }
-        answer = new int[arr.length - 1];
-
         int j = 0;
         for (int i = 0; i < answer.length; i++) {
             if (arr[j] == min) {
@@ -36,6 +34,5 @@ public class programmers12935 {
             j++;
         }
         return answer;
-
     }
 }
