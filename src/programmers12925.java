@@ -5,7 +5,7 @@ public class programmers12925 {
     }
 
     private static int solution(String s) {
-        int answer = 0;
+//        int answer = 0;
         return Integer.parseInt(s);
     }
 }
