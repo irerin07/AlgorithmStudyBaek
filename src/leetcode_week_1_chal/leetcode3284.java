@@ -1,3 +1,5 @@
+package leetcode_week_1_chal;
+
 public class leetcode3284 {
     public static void main(String[] args) {
         int n = 19;

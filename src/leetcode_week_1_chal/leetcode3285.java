@@ -1,3 +1,5 @@
+package leetcode_week_1_chal;
+
 public class leetcode3285 {
     public static void main(String[] args) {
         int[] nums = {-1, -2, -3, -4, -5};

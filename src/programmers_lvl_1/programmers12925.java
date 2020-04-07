@@ -1,3 +1,5 @@
+package programmers_lvl_1;
+
 public class programmers12925 {
     public static void main(String[] args) {
         String s = "-12345";

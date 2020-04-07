@@ -1,3 +1,5 @@
+package leetcode_week_1_chal;
+
 public class leetcode3286 {
     class Solution {
         public void moveZeroes(int[] nums) {

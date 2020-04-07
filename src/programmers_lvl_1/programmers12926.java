@@ -1,3 +1,5 @@
+package programmers_lvl_1;
+
 public class programmers12926 {
     public static void main(String[] args) {
         String s = "a B z";

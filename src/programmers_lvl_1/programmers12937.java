@@ -1,3 +1,5 @@
+package programmers_lvl_1;
+
 public class programmers12937 {
     public static void main(String[] args) {
         int num = 3;

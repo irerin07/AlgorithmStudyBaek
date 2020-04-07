@@ -1,3 +1,5 @@
+package programmers_lvl_1;
+
 public class programmers12922 {
     public static void main(String[] args) {
         int n = 4;

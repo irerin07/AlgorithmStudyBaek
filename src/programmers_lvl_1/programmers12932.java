@@ -1,3 +1,5 @@
+package programmers_lvl_1;
+
 public class programmers12932 {
     public static void main(String[] args) {
         long n = 2147483647;
