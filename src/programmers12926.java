@@ -4,7 +4,6 @@ public class programmers12926 {
         int n = 4;
         System.out.println(solution(s, n));
     }
-
     private static String solution(String s, int n) {
         String answer = "";
         for(int i=0; i<s.length(); i++) {
