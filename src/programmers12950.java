@@ -16,7 +16,6 @@ public class programmers12950 {
         for(int i = 0; i < arr1.length;i++){
             for(int j = 0; j < answer[0].length; j++){
                 answer[i][j] = arr1[i][j] + arr2[i][j];
-
             }
         }
         return answer;
