@@ -3,7 +3,7 @@ package programmers_lvl_1;
 public class programmers12901 {
     public static void main(String[] args) {
         int a = 1;
-        int b = 8;
+        int b = 7;
         System.out.println(solution(a,b));
     }
     public static String solution(int a, int b) {
@@ -13,7 +13,7 @@ public class programmers12901 {
         int totaldays = 0;
         for(int i = 0; i < a-1; i++){
             totaldays+=(month[i]);
-            System.out.println(totaldays);
+
         }
         totaldays += (b-1);
         answer = days[totaldays%7];
