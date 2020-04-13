@@ -33,15 +33,18 @@ public class baekjoon2667 {
         for(int i = 0; i < n; i ++){
             for(int j = 0; j < n; j++){
                 if(vilage[i][j] == 1 && visited[i][j] == 0){
+//                    System.out.println("i: " + i + " j: " + j);
                     count = 1;
                     dfs(i,j);
                     list.add(count);
+//                    System.out.println(count);
 
                 }
             }
         }
         Collections.sort(list);
 
+        System.out.println(list.size());
 
         for(int i=0;i<list.size();i++)
             System.out.println(list.get(i));
@@ -51,11 +54,14 @@ public class baekjoon2667 {
         visited[i][j] = 1;
 
         for(int x=0;x<4;x++){
+//            System.out.println("0new X: " + newX + " 0new Y: " + newY);
             newX = i + dx[x];
             newY = j + dy[x];
+//            System.out.println("1new X: " + newX + " 1new Y: " + newY);
             if(newX>=0&&newY>=0&&newX<n&&newY<n) {
                 if(vilage[newX][newY] == 1 && visited[newX][newY] == 0)
                 {
+//                    System.out.println("2new X: " + newX + " 2new Y: " + newY);
                     dfs(newX,newY);
                     count++;
                 }
