@@ -18,7 +18,6 @@ public class baekjoon1018 {
             tmp = in.readLine();
             for(j=0;j<m;j++) map[i][j] = tmp.charAt(j);
         }
-
         for(i=0;i<=n-8;i++){
             for(j=0;j<=m-8;j++){
 
