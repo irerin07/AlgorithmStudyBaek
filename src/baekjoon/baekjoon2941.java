@@ -20,5 +20,6 @@ public class baekjoon2941 {
         bw.flush();
         br.close();
         bw.close();
+
     }
 }
