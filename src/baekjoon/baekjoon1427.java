@@ -24,7 +24,5 @@ public class baekjoon1427 {
         }
         br.close();
 
-
-
     }
 }
