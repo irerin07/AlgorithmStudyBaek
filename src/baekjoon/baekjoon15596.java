@@ -6,6 +6,8 @@ public class baekjoon15596 {
         System.out.println(sum(arr));
 
     }
+
+
     private static long sum(int[] a){
         long answer = 0;
         for(int i: a){
