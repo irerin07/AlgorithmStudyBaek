@@ -26,6 +26,5 @@ public class baekjoon1003 {
         bw.flush();
         br.close();
         bw.close();
-
     }
 }
