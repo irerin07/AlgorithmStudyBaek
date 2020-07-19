@@ -39,9 +39,6 @@ public class baekjoon15651 {
             sb.append("\n");
         }else {
             for(int i = 1; i <= N; i++) {
-                if (apply != 0 && result[apply-1] > i) {
-                    continue;
-                }
                 result[apply] = i;
                 nextPermitation(apply+1);
             }
