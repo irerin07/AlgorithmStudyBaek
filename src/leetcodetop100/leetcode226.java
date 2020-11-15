@@ -27,6 +27,7 @@ public class leetcode226 {
       root.right = left;
       root.left = right;
       return root;
+
     }
   }
 }
