@@ -8,7 +8,10 @@ import java.util.Set;
 public class programmers68644 {
     public static void main(String[] args) {
         int[] a = {2,1,3,4,1};
-        System.out.println(solution(a));
+        int[] solution = solution(a);
+        for (int i : solution) {
+            System.out.println("i = " + i);
+        }
     }
     public static int[] solution(int[] a){
         int[] ans = {};
@@ -30,9 +33,6 @@ public class programmers68644 {
             ans[i]+=integers.get(i);
         }
         Arrays.sort(ans);
-        for (int an : ans) {
-            System.out.println("an = " + an);
-        }
 //        return set.stream().sorted().mapToInt(Integer::intValue).toArray();
         return ans;
     }
